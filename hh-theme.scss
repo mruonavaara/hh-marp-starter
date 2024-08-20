@@ -1,0 +1,56 @@
+/* @theme hh-theme */
+
+@import 'default'; /* https://github.com/marp-team/marp-core/blob/main/themes/default.scss */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap');
+
+section {
+  background-image: url("../bg.png");
+  justify-content: flex-start;
+  padding-top: 48.5px;
+}
+
+section.lead {
+  background-image: url("../bg_title.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+section.lead h1 {
+  color: white;
+}
+
+section::after {
+  color:white;
+}
+
+section.smaller {
+  font-size: 26px;
+}
+
+section.smallest {
+  font-size: 23px;
+}
+
+section .hljs-comment {
+  color: red;
+}
+
+section .hljs-keyword {
+  color: blue;
+}
+
+section .hljs-name {
+  color: #1ba20c
+}
+
+section .hljs-built_in {
+  color: darkblue
+}
+
+section .hljs-string {
+  color: darkred
+}
