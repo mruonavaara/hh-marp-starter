@@ -1,5 +1,5 @@
 {
-    "markdown.marp.enableHtml": true,
+    "markdown.marp.html": "default",
     "markdown.marp.themes": [
         "./hh-theme.scss"
     ]
